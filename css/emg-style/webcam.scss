@@ -1,0 +1,221 @@
+#teacher-area{
+	height : 26vh;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.56);
+	border-radius: 1.5vh;
+}
+
+#largeVideo {
+	border-radius: 1.5vh;
+	border-radius: 5px;
+}
+
+#largeVideoContainer {
+	background: transparent !important;
+}
+
+#toggleFilmstripButton {
+	display: none;
+}
+
+#filmstripLocalVideo  {
+	display: inline-block;
+}
+
+.videocontainer__toolbar {
+	background: #525252;
+	padding: 0 15px 0 5px;
+}
+
+.displayNameContainer{
+	visibility: inherit !important; 
+}
+
+.auth-button{
+	padding: 0.5vh 1vh;
+	// text-align: center;
+	font-size: 1.3vh;
+	height: 3vh;
+}
+.auth-button:hover{
+	background: rgba(255,255,255,.1);
+}
+.popupmenu__item{
+	text-align: left;
+	height: 4vh;
+	.popupmenu__text{
+		margin-left: 1vh;
+		font-size: 1.8vh;
+	}
+}
+
+.videocontainer__toolbar, .videocontainer__toptoolbar {
+    z-index: 9;
+}
+
+.popupmenu__link {
+    padding: 0.5vh 1vh;
+}
+
+.eYJELv{
+	background-color: #FBECD7;
+	color: #E8772C;
+}
+
+.star-div{
+	margin: 0.5vh;
+	background: #FBECD7;
+	border-radius: 1vh;
+	box-shadow: 0px 1px 8px #FBECD7;
+	.star-img{
+		height: 2.9vh;
+	}
+	.star-number{
+		padding: 0 0.5vh;
+		color: #E8772C;
+	}
+}
+
+#teacherName {
+	display: block;
+    position: absolute;
+    background: #e8772c;
+    bottom: 0;
+    z-index: 10;
+    width: 100%;
+	color: #fff;
+	border-radius: 0 0 5px 5px;
+}
+
+#isTeacherOffMic{
+	position: absolute;
+	z-index: 10;
+	img{
+		height: 14vh;
+		width: 14vh;
+	}
+}
+
+.ban-icon {
+	display: inline-block;
+	width: 50%;
+}
+.videocontainer__ban {
+	height: 12vh;
+    width: 12vh;
+    z-index: 10;
+    position: absolute;
+    border: 0.5vh solid #E8772C;
+    border-radius: 50%;
+	background: #FEE7D7;
+	img {
+		height: 70%;
+		position: absolute;
+		top: 15%;
+		left: 15%;
+	}
+}
+
+.ban__chat{
+    left: 2vh;
+	top: 3vh;
+	display: none;
+}
+
+.ban__cam{
+	left: 16vh;
+	top: 3vh;
+	display: none;
+}
+
+.camera_participant_wrap {
+	position: absolute;
+    z-index: 20;
+    height: 19vh;
+    top: 0;
+    width: 31vh;
+    align-items: center;
+    text-align: center;
+    background: radial-gradient(ellipse at center, #ffffff 0%, #000000 100%, #000000 100%);
+    border-radius: 5px;
+    left: 0;
+	.no-participant{
+		position: absolute;
+		top: 8vh;
+		left: 5vh;
+		color: #000;
+		font-size: 14px;
+		z-index: -1;
+	}
+	#teacher-on-stage-name, #on-stage-name {
+		position: absolute;
+		bottom: 0;
+		color: #fff;
+		height: 3.5vh;
+		background: #e8772c;
+		width: 100%;
+		border-radius: 0 0 0.5vh 0.5vh;
+		font-size: 2.3vh;
+	}
+}
+#camera_participant{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	video{
+		border-radius: 3px;
+		height: 100%;
+	}
+}
+#teacher_camera_participant{
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	video{
+		border-radius: 3px;
+		height: 100%;
+	}
+}
+.large-student-area{
+	#timer{
+		text-align: left;
+		margin-left: 1vw;
+		text-shadow: 0.2vh 0.2vh #000;
+	}
+}
+
+.large-student-area{
+}
+
+.large-view-small-cam{
+	height: 98%;
+    width: 100%;
+	z-index: 301;
+	.close-camera-small-large-view {
+		position: absolute;
+		top: 0;
+		right: 0.5vh;
+		color: #fff;
+		opacity: 1;
+		z-index: 302;
+		text-shadow: 0 0.3vh #000;
+	}
+	#camera-small-large-view{
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+		video{
+			height: 100%;
+			width: 100%;
+		}
+	}
+	#small-large-view-name{
+		position: absolute;
+		bottom: 0;
+		color: #fff;
+		height: 3.5vh;
+		background: #e8772c;
+		width: 100%;
+		border-radius: 0 0 0.5vh 0.5vh;
+		font-size: 2.3vh;
+	}
+}

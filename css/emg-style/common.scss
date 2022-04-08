@@ -1,0 +1,292 @@
+//  Import fonts
+@font-face {
+    font-family: opensan_bold;
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: opensan_regular;
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: opensan_light;
+    src: url(../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: helvetica_neue;
+    src: url(../fonts/helvetica_neue/helveticaneue.ttf);
+}
+
+@font-face {
+    font-family: digital;
+    src: url(../fonts/digital-7.ttf);
+}
+// End Import fonts
+
+// Custom scrollbar
+::-webkit-scrollbar {
+    height: 1.5vh;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+    &:hover {
+        background: #555;
+    }
+}
+
+// Reset CSS
+* {
+    font-family: opensan_regular;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+// End Reset CSS
+body {
+    .row {
+        margin: 0;
+    }
+    background-color: #dde3ea !important;
+    color: #454545;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    .fa {
+        font-size: none;
+    }
+    h1 {
+        font-size: 5.9vw;
+    }
+    h2 {
+        font-size: 3.0vh;
+    }
+    h4 {
+        font-size: 2.3vh;
+    }
+    p {
+        font-size: 1.6vmin;
+        @media (min-width: 768px) and (max-width: 1199.98px) {
+            font-size: 3vmin;
+        }
+    }
+    h1, h2, h3, h4, h5, h6 {
+        padding: 0;
+        margin: 0;
+    }
+    h4 {
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            font-size: 2vh;
+        }
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            font-size: 2vh;
+        }
+    }
+    i, h5 {
+        font-size: 12px;
+        @media (min-width: 768px) and (max-width: 1199.98px) {
+            font-size: 3vmin;
+        }
+    }
+    a {
+        text-decoration: none !important;
+    }
+    i, a {
+        cursor: pointer;
+    }   
+}
+#vcr-body{
+    height: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 0%;
+    background: #FBECD7;
+    .is-centered {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding: 0;
+        top: 0.5vw;
+    }
+    #slide-area{
+        height: 68vh
+    }
+}
+
+.pad2vh{
+    padding: 2vh;
+}
+.pad0101{
+    padding: 0vh 1vh 0vh 1vh !important;
+}
+
+.is-max-content {
+    width: max-content !important;
+    height: 19.4vh;
+}
+
+.is-scroll-y{
+    overflow-y: auto;
+}
+
+.is-scroll-x{
+    overflow-x: auto;
+}
+
+.eoRGoR {
+    background-color: #FBECD7 !important;
+    color :#e8772c !important; 
+}
+
+.device-selector-trigger{
+    background-color: #fbecd7 !important;
+    border: 1px solid #e8772c !important;
+}
+
+.cksvax {
+    background-color: #FBECD7 !important;
+}
+
+.hWFSra{
+    color: #e8772c !important;
+}
+
+.hiddenElement{
+    display: none !important;
+}
+
+.showElement {
+    display: inline-block
+}
+
+.enableElement {
+    display: block !important;
+}
+
+.isMosaicMode{
+    width: 100% !important;
+    height: 88vh !important;
+}
+
+.star-pulse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    font-size: 100vh;
+}
+
+.star-animation {
+    animation-name: starpulse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    color : #e8772c !important;
+    z-index: 999;
+  }
+    @keyframes starpulse {
+    0% { 
+        font-size: 30vh;
+       }
+    100% {
+        font-size: 7vh;
+    }
+}
+.star-1{
+    left: 0;
+}
+.star-2{
+    left: 7vh;
+}
+.star-3{
+    left: 14vh;
+}
+.star-4{
+    left: 21vh;
+}
+.star-5{
+    left: 28vh;
+}
+
+.margin10{
+    margin: 10px !important;
+}
+
+.hw2vh {
+    svg{
+        height: 2vh;
+        width: 2vh;
+        fill: transparent
+    }
+}
+
+.center{
+    text-align: center;
+}
+
+.fullWidth{
+    width: 100%;
+}
+
+.halfWidth{
+    width: 50%;
+}
+
+.zIndex-10 {
+    z-index: -10 !important;
+}
+
+.left0 {
+    left: 0;
+}
+
+.hiddenBG {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+.color-fff {
+    color: #fff !important;
+}
+
+.fullHW{
+    height: 100%;
+    width: 100%;
+}
+
+
+.public-footer {
+    z-index: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0.1vh;
+    width: 75%;
+    color: red;
+    .support-info {
+      span {
+        display: block;
+        font-weight: bold;
+      }
+    }
+}
+  
+.support-area {
+    background: #e29a69;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.56);
+    color: #c30000;
+    font-size: 2.1vh;
+    padding-left: 2vw;
+    border-radius: 1vh;
+}

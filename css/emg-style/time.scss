@@ -1,0 +1,52 @@
+#time-area {
+    height: 6vh;
+    margin-top: 2vh;
+    box-shadow: 0 4px 6px rgba(0,0,0,.56);
+    border-radius: 1.5vh 1.5vh 0 0;
+    background-color: #fff;
+}
+#timer{
+    text-align: center;
+    .text-timer{
+        font-size: 4.5vh;
+    }
+}
+.count-down {
+    display: flex;
+    .time-up{
+        font-size: 19px;
+    }
+    .count-down-box {
+        display: inline-block;
+    }
+    .second-enter-box{
+        display: inline-block;
+        color: #000;
+        margin-left: 15px;
+        .form-group{
+            width : 132px;
+            margin-bottom: 8px;
+        }
+        .form-control{
+            padding: 0;
+            height: 30px;
+            text-align: center;
+        }
+        .btn-default{
+            width : 100%
+        }
+        .count-down-second{
+            width: 100%;
+        }
+    }
+}
+.timer {
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 9px;
+    .value{
+        font-size: 40px;
+    }
+}

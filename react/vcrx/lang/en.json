@@ -1,0 +1,151 @@
+{
+    "vcrx": {
+        "language": "English",
+        "languages": {
+            "vi": "Vietnamese",
+            "en": "English"
+        },
+        "header": {
+            "create_quiz": "Create quiz",
+            "mosaic_mode": "Mosaic Mode",
+            "full_screen": "Full screen",
+            "end_session": "End session",
+            "video_warmup": "Open video",
+            "slide":"Open slide",
+            "mic": "Mic",
+            "camera": "Camera",
+            "speaker": "Speaker",
+            "on": "On",
+            "off": "Off",
+            "change_theme": "Change theme",
+            "change_language": "Switch language",
+            "log_out": "Logout"
+        },
+        "error": {
+            "notify": "Thank you for sending your message. The technician will assist in the shortest possible time",
+            "mic": "Mic error",
+            "video": "Video error",
+            "slide": "Slide error",
+            "other": "Other error",
+            "report": "Report another bug in the class",
+            "enter_text": "Enter your error here, please",
+            "send": "Send",
+            "close": "Close",
+            "title": "Warning",
+            "content_empty": "Please, enter text!",
+            "advise": "Please enter teamview information or error details for best support!",
+            "fail": "An error occurred. Please try again, later!",
+            "error_subject": "Enter the error title"
+        },
+        "videowarmup": {
+            "title": "Video Warm Up",
+            "play": "Play",
+            "stop": "Stop"
+        },
+        "assessment_students": {
+            "title": "Assessment Students",
+            "students": "Students",
+            "pronunciation": "Pronunciation",
+            "vocabulary": "Vocabulary",
+            "grammar": "Grammar",
+            "enter_text": "Enter text",
+            "send": "Send",
+            "close": "Close",
+            "no_student": "There are no student to assess",
+            "success": "Assessment submitted successfull!"
+        },
+        "chat": {
+            "public": "Public",
+            "option": "Option",
+            "enter_text": "Enter text",
+            "done": "Done",
+            "send": "Send",
+            "system": "System"
+        },
+        "title": {
+            "webcam": "Webcam",
+            "user": "Users",
+            "slider": "Slider",
+            "time": "Time",
+            "chat": "Chat",
+            "topicSlider": "Topic",
+            "raise_hand": "Raise hand"
+        },
+        "notify": {
+            "permission": "You do not have permission to perform this function.",
+            "nullTrack": "Microphone not found. User has disconnected or unplugged the microphone",
+            "out_class": "Are you sure want to log out?",
+            "kick": "Are you sure to kickout this person?",
+            "kickDuplicateUser": "Your account was accessed from another device",
+            "log_out": "Log out",
+            "close": "Close",
+            "exclude_audit": "You are in a class with hearing rights, so you do not have permission to manipulate this function.",
+            "mic_audit": "This student is attending class with hearing rights, so cannot open Mic!"
+        },
+        "theme": {
+            "default": "Default",
+            "orange": "Orange",
+            "maroon": "Maroon",
+            "blue": "Blue",
+            "light": "Light",
+            "dark": "Dark"
+        },
+        "user": {
+            "gv": "Teacher",
+            "po": "PO",
+            "tg": "Assistant",
+            "hv": "Web student",
+            "mb": "Mobile student",
+            "interrupted": "The user's internet connection is interrupted",
+            "audit": "Audit"
+        },
+        
+        "upload_material": {
+            "title": "Upload material",
+            "file_name": "File name",
+            "preview": "Preview",
+            "choose_material": "Choose the file and upload...",
+            "choose_file": "Choose file",
+            "choose_link": "or enter link file here",
+            "save_link": "Save link",
+            "success": "Update material successfull!",
+            "fail": "Update material unsuccessfull!. Please try again later.",
+            "valid_link_fail": "Link file is not valid. Please choose link youtube, mp4, or PDF file format. Thank you!",
+            "valid_file_fail": "File is not valid. Please choose mp4, or PDF file format. Thank you!",
+            "size_file_fail": "Size of the file is too large, more than 30Mb!",
+            "valid_fail": "Update material unsuccessfull. File name/link has special characters !@#$%^&*;[]"
+        },
+        "slide": {
+            "tooltip": {
+                "pen": "Pencil",
+                "line": "Line",
+                "rectangle": "Rectangle",
+                "ellipse": "Ellipse",
+                "text": "Text",
+                "erase": "Erase",
+                "clear": "Clear all",
+                "undo": "Undo",
+                "size": "Size",
+                "color": "Color"
+            },
+            "control": {
+                "next": "Next",
+                "preview": "Preview",
+                "turn_off_control": "Turn off the right to control slide"
+            }
+        },
+        "logout": {
+            "out": "Logout",
+            "notify_logout": "Notify"
+        },
+        "userlist": {
+            "teacher_group": "Teaacher, PO & Assistant",
+            "student_group": "Students"
+        },
+        "statusConnect": {
+            "connect_good": "Connect good",
+            "connect_bad": "Connect bad",
+            "connect_normal": "Connect normal"
+        }
+    }
+}

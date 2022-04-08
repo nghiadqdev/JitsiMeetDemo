@@ -1,0 +1,8 @@
+export const CHANGE_ROOM_INFO = "CHANGE_ROOM_INFO";
+export const CHANGE_LANGUAGE = "CHANGE_LANGUAGE";
+export const CHANGE_USER_INFO = "CHANGE_USER_INFO";
+export const UPDATE_QUIZ_ANSWER_LIST = "UPDATE_QUIZ_ANSWER_LIST";
+export const ADD_USER = "ADD_USER";
+export const REMOVE_USER = "REMOVE_USER";
+export const UPDATE_USER = "UPDATE_USER";
+export const ADD_LOG_QUIZ = "ADD_LOG_QUIZ";

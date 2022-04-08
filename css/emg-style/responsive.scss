@@ -1,0 +1,62 @@
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .name-user {
+        padding: 0;
+        width: 100%;
+    }
+    #vcr-body .vcr-list-chat {
+        .vcr-option-chat-left .vcr-option-tittle p, .vcr-option-chat-right .vcr-option-tittle p {
+        font-size: 2vmin;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .name-user {
+        padding: 0;
+        width: 100%;
+    }
+    #vcr-body .vcr-list-chat {
+        .vcr-option-chat-left .vcr-option-tittle p, .vcr-option-chat-right .vcr-option-tittle p {
+        font-size: 2vmin;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .video-cam iframe {
+        height: 95%;
+    }
+    .name-user {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1199.98px) and (max-width: 1367px) {
+    .vcr-next-slide {
+        margin: 0 auto;
+        height: calc(6% - 5px);
+    }
+
+    /*CSS BUTTON ALERT ERROR*/
+    .tool-user .dropdown-menu {
+        &::after {
+        left: 9%;
+        bottom: -14px;
+        border: 8px solid #b7444400;
+        border-top: 6px solid #333333;
+        }
+        margin-bottom: 15px;
+    }
+    /*CSS POPUP VIDEO WARMUP*/
+    #myModalVideo .modal-dialog {
+        
+    }
+}
+
+@media (min-width: 1369px) {
+	#chatconverstation{
+		height: 99% !important;
+  }
+}
+

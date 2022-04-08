@@ -1,0 +1,145 @@
+{
+    "vcrx": {
+        "language": "Tiếng việt",
+        "languages": {
+            "vi": "Tiếng việt",
+            "en": "Tiếng Anh"
+        },
+        "error": {
+            "notify": "Cảm ơn Anh/Chị đã gửi thông báo. Kĩ thuật viên sẽ hỗ trợ trong thời gian sớm nhất",
+            "mic": "Lỗi mic",
+            "video": "Lỗi video",
+            "slide": "Lỗi slide",
+            "other": "Lỗi khác",
+            "report": "Báo lỗi khác trong lớp học",
+            "enter_text": "Nhập lỗi bạn gặp vào đây",
+            "send": "Gửi",
+            "close": "Đóng",
+            "title": "Báo lỗi",
+            "content_empty": "Bạn chưa nhập thông tin",
+            "advise": "Bạn vui lòng nhập thông tin teamview hoặc chi tiết lỗi để được hỗ trợ tốt nhất!",
+            "fail": "Có lỗi xảy ra trong quá trình báo lỗi. Vui lòng thử lại sau!",
+            "error_subject": "Nhập tiêu đề lỗi"
+        },
+        "videowarmup": {
+            "title": "Video Warm Up",
+            "play": "Chạy",
+            "stop": "Dừng"
+        },
+        "assessment_students": {
+            "title": "Đánh giá học viên",
+            "students": "Học viên",
+            "pronunciation": "Phát âm",
+            "vocabulary": "Từ vựng",
+            "grammar": "Ngữ pháp",
+            "enter_text": "Nhập đánh giá",
+            "send": "Gửi",
+            "close": "Đóng",
+            "no_student": "Lớp không có học viên nào để đánh giá",
+            "success": "Đánh giá được gửi thành công!"
+        },
+        "chat": {
+            "public": "Công khai",
+            "option": "Tùy chọn",
+            "enter_text": "Nhập tin nhắn",
+            "done": "Xong",
+            "send": "Gửi",
+            "system": "Hệ thống"
+        },
+        "title": {
+            "webcam": "Webcam",
+            "user": "Người dùng",
+            "slider": "Trình chiếu",
+            "time": "Thời gian",
+            "chat": "Trò chuyện",
+            "topicSlider": "Chủ đề",
+            "raise_hand": "Giơ tay"
+        },
+        "notify": {
+            "permission": "Bạn không có quyền thao tác chức năng này!",
+            "nullTrack": "Không tìm thấy microphone. User đã mất kết nối hoặc chưa cắm microphone!",
+            "out_class": "Bạn có chắc chắn thoát khỏi lớp?",
+            "kick": "Bạn có chắc chắn kick người này không?",
+            "kickDuplicateUser": "Tài khoản của bạn bị truy cập từ một thiết bị khác",
+            "log_out": "Thoát khỏi lớp",
+            "close": "Đóng",
+            "exclude_audit": "Bạn đang tham gia lớp học với quyền dự thính nên không có quyền thao tác chức năng này.",
+            "mic_audit": "Học viên này đang tham gia học dự thính, nên không thể mở Mic!"
+        },
+        "theme": {
+            "default": "Mặc định",
+            "orange": "Da cam",
+            "maroon": "Nâu sẫm",
+            "blue": "Xanh dương",
+            "light": "Sáng",
+            "dark": "Tối"
+        },
+        "user": {
+            "gv": "Giáo viên",
+            "po": "PO",
+            "tg": "Trợ giảng",
+            "hv": "Học viên Web",
+            "mb": "Học viên Mobile",
+            "dt": "Học viên dự thính",
+            "interrupted": "Kết nối của người dùng không ổn định",
+            "audit": "Dự thính"
+        },
+        "header": {
+            "mic": "Mic",
+            "camera": "Camera",
+            "speaker": "Loa",
+            "on": "Bật",
+            "off": "Tắt",
+            "change_theme": "Đổi theme",
+            "change_language": "Đổi ngôn ngữ",
+            "log_out": "Đăng xuất"
+        },
+        "upload_material": {
+            "title": "Upload học liệu",
+            "file_name": "Tên tệp",
+            "preview": "Xem trước",
+            "choose_material": "Chọn các tập tin bất kỳ và tải lên...",
+            "choose_file": "Chọn tệp",
+            "choose_link": "hoặc nhập đường dẫn website bất kỳ",
+            "save_link": "Lưu đường dẫn",
+            "success": "Update học liệu thành công!",
+            "fail": "Update học liệu không thành công. Vui lòng thử lại sau.",
+            "valid_link_fail": "Đường dẫn tệp không hợp lệ. Vui lòng chọn tệp dạng mp4, pdf hoặc đường dẫn youtube. Xin cảm ơn!",
+            "valid_file_fail": "Tệp không hợp lệ. Vui lòng chọn tệp dạng mp4 hoặc pdf. Xin cảm ơn!",
+            "size_file_fail": "Tệp tải lên quá kích thước cho phép là 30Mb!",
+            "valid_fail": "Upload học liệu không thành công. Tên tệp/đường dẫn chứa ký tự không hợp lệ !@#$%^&*;[]"
+        },
+        "slide": {
+            "tooltip": {
+                "pen": "Bút",
+                "line": "Đường thẳng",
+                "rectangle": "Hình chữ nhật",
+                "ellipse": "Hình elip",
+                "text": "Chữ",
+                "erase": "Tẩy",
+                "clear": "Xóa tất cả",
+                "undo": "Hủy bỏ",
+                "size": "Cỡ",
+                "color": "Màu"
+            },
+            "control": {
+                "next": "Sau",
+                "preview": "Trước",
+                "turn_off_control": "Tắt quyền điều khiển slide"
+            }
+        },
+        "logout": {
+            "out": "Thoát",
+            "notify_logout": "Thông báo"
+        },
+        "userlist": {
+            "teacher_group": "Giáo viên, PO & Trợ giảng",
+            "student_group": "Học sinh"
+        },
+        "statusConnect": {
+            "connect_good": "Mạng tốt",
+            "connect_bad": "Mạng yếu",
+            "connect_normal": "Mạng trung bình"
+        }
+    }
+}

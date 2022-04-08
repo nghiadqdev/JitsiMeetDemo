@@ -1,0 +1,139 @@
+#header{
+  display: flex;
+  background : #FBECD7;
+  height : 10vh;
+  .headerLeft{
+    img{
+      cursor: pointer;
+    }
+  }
+  .star-icon{
+    width: 7vh;
+    font-size: 7vh;
+    margin: 0;
+    padding: 0;
+  }
+  .headerTitle {
+    padding-top: 3vh;
+    width: 45vh;
+    color: red;
+    .ellipsis{
+      font-size: 4vh;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .headerRight{
+    // flex: 1;
+    position: absolute;
+    right: 0;
+    height: 5vh;
+    .userRaisedHand{
+      background-color: rgba(232, 119, 44, 1);
+      color : #fff !important;
+      path {
+        fill: #fff !important;
+      }
+    }
+    .isMosaic {
+      background-color: #e8772c !important;
+      svg {
+        path {
+          fill: #fff !important;
+        }
+      }
+    }
+    .headerTool{
+      float: right;
+      border: 1px solid rgba(232, 119, 44, 1);
+      border-radius: 10vw;
+      padding: 1vh;
+      height : 100%;
+      cursor: pointer;
+      color : rgba(232, 119, 44, 1);
+      margin: 2.5vh 1vw 2.5vh 0;
+      font-weight: bold;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: auto;
+      transition: width 300ms, justify-content 300ms linear;
+      .toolbox-button{
+        padding: 0.8vh 0;
+      }
+      .onState,.muteAll,.oQuiz,.modeMosaic,.fullScreen,.videoWarmup,.muteAudio,.muteVideo,.liveStream,.recording,.oSetting,.grades, .is-count-down{
+        display: none;
+        white-space: nowrap;
+      }
+      svg {
+        height: 3vh;
+        path {
+          fill: rgba(232, 119, 44, 1);
+        }
+      }
+      span {
+        font-size: 1.7vh;
+      }
+    }
+    .mediaControl {
+
+      padding: 0;
+      width: 5vh;
+      text-align: center;
+    }
+    .exitClass {
+      background: #FED3CD;
+      border: 1px solid #F57E78;
+      color: #F57E78;
+      width: auto;
+    }
+    
+    .headerTool:hover {
+      background-color: rgba(232, 119, 44, 0.5);
+      color: #fff;
+      // width: 15vh;
+      path {
+        fill: #fff;
+      }
+    }
+    .exitClass:hover{
+      background-color: rgba(245, 126, 120, 0.5);
+    }
+    .btn-quiz{
+      border: 0;
+      background: transparent;
+      font-size: 1.7vh;
+      font-weight: normal;
+    }
+    .form-create-quiz{
+      padding: 1vh;
+    }
+  }
+  .dv-star-rating{
+    float: right;
+    margin-right: 1vw;
+  }
+  .quiz-dropdown{
+    min-width: 20px;
+    min-height: 100px;
+    left: auto;
+    top: auto;
+  }
+
+  .quiz-content::after {
+    content: 'Quiz';
+  }
+}
+
+#largeHeader {
+  position: absolute;
+  z-index: 20;
+  width: 100%;
+  #header{
+    background-color: transparent;
+  }
+}
+// End sass
+
+

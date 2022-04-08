@@ -1,0 +1,107 @@
+#midle {
+    height: 90vh;
+    margin: 0 2vh;
+    position: relative;
+    .left-box {
+        padding-right: 2vh ;
+    }
+    
+}
+
+#largeMiddle {
+    height: 100vh;
+    width: 100vw;
+    .large-icon-unmute{
+        position: absolute;
+        height: 10vh;
+        top: 10vh;
+        left: 5vh;
+        z-index: 306;
+    }
+    .large-icon-drawing{
+        position: absolute;
+        height: 10vh;
+        top: 10vh;
+        left: 20vh;
+        z-index: 306;
+    }
+}
+
+.quiz-body{
+    .quiz-title{
+        text-align: center;
+    }
+    .box-quiz{
+        right: 0;
+        bottom: 0;
+        position: absolute;
+        background: rgba(251, 236, 215, 0.5);
+        border-radius: 1vh;
+        .option-quiz{
+            text-align: center;
+            cursor: pointer;
+            background-color: #FFF7EC;
+            img {
+                margin: 1vh;
+                height: 10vh;
+            }
+        }
+        .option-quiz:hover{
+            background-color: #eae2d7;
+        }
+        .option-choose{
+            background-color: #FFDBA6;
+        }
+        .timer-quiz-teacher{
+            margin: 1vh;
+            display: inline-block;
+        }
+        .stop-quiz{
+            float: right;
+            border: 1px solid;
+            border-radius: 1vh;
+            background: #FBECD7;
+            margin: 0.5vh;
+            padding: 0.5vh;
+            cursor: pointer;
+        }
+        .stop-quiz:hover{
+            background : #e8772c;
+            color: #fff;
+        }
+        .title-quiz-teacher{
+            margin: 0.5vh;
+            padding: 0.5vh;
+            float: left;
+        }
+        .submit-box{
+            text-align: center;
+            font-weight: bold;
+            .time-text{
+                color: #8F8F8F;
+                margin: 1vh;
+                height: 50%;
+                margin-top: 2.5vh;
+                font-size: 4.5vh;
+            }
+            .submit-quiz{
+                background: #E8772C;
+                border: 1px solid rgba(232, 119, 44, 0.4);
+                color: #FFF7EC;
+                cursor: pointer;
+                border-radius: 20vh;
+                width: 80%;
+                height: 50%;
+                font-size: 2.5vh;
+                margin-top: 3vh;
+            }
+        }
+    }
+    
+}
+
+.title-modal{
+    color: #000;
+    font-weight: bold;
+    font-size: large;
+}
